@@ -4,15 +4,11 @@
   "description": "A mental wellness web application providing supportive tools for stress relief, self-assessment, and gentle guidance",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [
     "mental-health",
     "wellness",
-    "meditation",
-    "self-care",
     "express",
     "ejs"
   ],
@@ -21,18 +17,9 @@
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "serverless-http": "^4.0.0"
+    "express": "^4.18.2"
   },
   "engines": {
-    "node": ">=14.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/example/all-is-well.git"
-  },
-  "bugs": {
-    "url": "https://github.com/example/all-is-well/issues"
-  },
-  "homepage": "https://github.com/example/all-is-well#readme"
+    "node": ">=18.0.0"
+  }
 }
